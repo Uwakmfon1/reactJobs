@@ -1,10 +1,12 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import JobListings from '../components/JobListings'
 
 const JobsPage = () => {
   return (
         <>
-            <Navbar />
+        <JobListings isHome={false} />
+            {/* <Navbar /> */}
         </>
   )
 }
